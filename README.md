@@ -31,7 +31,7 @@ ISEA_finals/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. **Clone or Download the Project**
 ```bash
@@ -63,7 +63,7 @@ The dashboard will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - **streamlit**: Web app framework for data apps
 - **pandas**: Data manipulation and analysis
@@ -75,5 +75,3 @@ pip install -r requirements.txt
 ```
 
 ---
-
-
