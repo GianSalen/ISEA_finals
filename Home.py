@@ -67,6 +67,50 @@ with col2:
 
 st.markdown("---")
 
+# Data Insights
+st.subheader("Data Insights")
+
+st.markdown("""
+**Volume:**
+
+Banking stocks such as BDO and BPI have much higher and more dispersed 
+trading volumes compared to utility and conglomerate stocks like Meralco and SM. 
+This indicates stronger liquidity and investor activity in the banking sector. 
+Meanwhile, Meralco and SM show more stable and concentrated trading behavior, 
+suggesting lower turnover and more long-term holding patterns.
+
+**Volatility:**
+
+Among the selected Philippine stocks, SM showed the highest price volatility, 
+as shown by its wide interquartile range and extended whiskers. 
+In contrast, BDO and BPI showed more stable price behavior with narrower distributions, 
+indicating lower volatility and more consistent market valuation. 
+Jollibee showed moderate volatility with occasional outlier movements, 
+while Meralco maintained relatively stable pricing typical of utility-sector stocks.
+
+**Correlation:**
+
+The correlation matrix shows that BDO, BPI, Jollibee, and SM generally moved
+ together during the May 2024 to May 2026 period, since they all had strong positive 
+correlations and mostly followed the same downward trend. Meralco stood out because it 
+moved differently from the others, showing negative correlations and a strong upward trend 
+(+65.58%) while the other stocks declined. This suggests Meralco acted more like a 
+defensive stock and could help diversify portfolio risk.
+
+**General:**
+
+Overall, the analysis shows that the selected Philippine stocks behaved differently
+across the May 2024 to May 2026 period in terms of price movement, volatility, 
+trading activity, and correlation. Banking stocks like BDO and BPI showed high liquidity 
+and stable price behavior, while SM and Jollibee experienced larger price declines and higher 
+volatility. Meralco stood out with strong positive growth and negative correlations 
+with the other stocks, suggesting it acted as a more defensive investment. 
+These differences highlight how stocks from different sectors can respond differently 
+to market conditions and why diversification is important in portfolio management.
+""")
+
+st.markdown("---")
+
 # About the Pages
 st.subheader("About the Pages")
 
