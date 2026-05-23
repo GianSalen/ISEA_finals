@@ -379,8 +379,8 @@ try:
             hide_index=True
         )
     else:
-        st.info("📌 Select at least one company to view summary statistics")
+        st.info(" Select at least one company to view summary statistics")
 
 except FileNotFoundError:
-    st.error("❌ Data file not found at `data/merged_cleaned_stocks.csv`")
+    st.error(" Data file not found at `data/merged_cleaned_stocks.csv`")
     st.info("Please ensure the merged_cleaned_stocks.csv file is in the data folder")
