@@ -121,15 +121,14 @@ with col1:
     **Visualizations Tab**
     
     The Visualizations page contains the analysis, interactive graphs, and charts. 
-    Explore trends, patterns, and comparisons between the five major Philippine companies' stock performance.
+    It also contains the trends, patterns, and comparisons between the five major Philippine companies' stock performance.
     """)
 
 with col2:
     st.markdown("""
     **Data Explorer Page**
     
-    The Data Explorer allows you to upload your own downloaded data from investing.com to have it displayed here. 
-    You can also compare multiple datasets you've uploaded to identify patterns and trends across different time periods or additional companies.
+    The Data Explorer allows you to upload your own downloaded data from investing.com to have it displayed here.
     """)
 
 col1, col2 = st.columns(2)
